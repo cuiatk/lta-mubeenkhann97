@@ -30,6 +30,16 @@ public class Customer {
 		 * TODO 3		10 Marks
 		 * Provide suitable specification for statement method 
 		 */
+		/**
+		 * Calculates rental for a customer on the basis of movies he/she selected and the
+		 * Rental according to new release and customer.
+		 * If customer added more than 1 rental then this function will calculate according to movie type e.g.
+		 * if regular adds 2 points and multiplies with 1.5 if days are more than 2
+		 * if new release multiplies with 3
+		 * if children adds 1.5 points and multiplies with 1.5 if days more than 3
+		 * @return result the full receipt of the rents.
+		 */
+
 		public String statement() {
 		double totalAmount = 0;
 		int frequentRenterPoints = 0;
